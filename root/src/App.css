@@ -1,7 +1,49 @@
-.header-container {
-  background-color: blue;
+/* Header.css */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.header-h1 {
-  text-align: center;
+.header-logo {
+  display: flex;
+  align-items: center;
 }
+
+.logo-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.logo-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.search-bar input {
+  border: 1px solid #dbdbdb;
+  padding: 8px 12px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.header-icons button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.notification-image {
+  height: 24px;
+  width: auto;
+  margin-left: 16px;
+}
+
+/* Additional styling for header icons/buttons if needed */
